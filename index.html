@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body style="overflow: hidden;">
     <canvas style="top: 0; left: 0; position: absolute;" id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
 
     
@@ -48,6 +48,14 @@
                 "canvas":{"alpha":true,"premultipliedAlpha":true} // make canvas transparent
             });
         });
+        {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
     </script>
 </body>
 
